@@ -1,0 +1,9 @@
+Building Bundle from Simple JS File: webpack src/index.js --output dist/bundle.js --mode development
+
+Running Webpack In Watch Mode: webpack --watch
+
+running Web Server: webpack-dev-server --inline
+
+Define Output path: webpack --entry ./app/login.js --output ./build/build.js --mode production
+
+Running in Production: webpack -p
